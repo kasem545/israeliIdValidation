@@ -37,6 +37,8 @@ class IsraeliIdValidator:
 value = input("Enter an ID: ")
 is_valid = IsraeliIdValidator.validate_id(value)
 if is_valid:
-    print("Valid Israeli ID")
+    print("Valid Israeli ID\n!מספר תעודת זהות תקין")
+    #print("!מספר תעודת זהות תקין")
 else:
-    print("Invalid Israeli ID")
+    print("inValid Israeli ID\n!מספר תעודת זהות אינו תקין")
+    #print("!מספר תעודת זהות אינו תקין")
